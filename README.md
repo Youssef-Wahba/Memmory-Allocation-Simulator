@@ -59,44 +59,44 @@ Select policy:
 
 Do you want to compact? 1.yes 2.no
 1
--Partition 0 (15 KB) => Process 1
--Partition 6 (30 KB) => Process 3
--Partition 4 (90 KB) => Process 2
--Partition 9 (100 KB) => Process 4
--Partition 10 (110 KB) => External fragment
+- Partition 0 (15 KB) => Process 1
+- Partition 6 (30 KB) => Process 3
+- Partition 4 (90 KB) => Process 2
+- Partition 9 (100 KB) => Process 4
+- Partition 10 (110 KB) => External fragment
 
 Select policy:
 2
--Partition 0 (90 KB) => Process 2
--Partition 1 (15 KB) => Process 1
--Partition 6 (5 KB) => External fragment
--Partition 2 (5 KB) => External fragment
--Partition 3 (30 KB) => Process 3
--Partition 4 (100 KB) => Process 4
--Partition 7 (20 KB) => External fragment
--Partition 5 (80 KB) => External fragment
+- Partition 0 (90 KB) => Process 2
+- Partition 1 (15 KB) => Process 1
+- Partition 6 (5 KB) => External fragment
+- Partition 2 (5 KB) => External fragment
+- Partition 3 (30 KB) => Process 3
+- Partition 4 (100 KB) => Process 4
+- Partition 7 (20 KB) => External fragment
+- Partition 5 (80 KB) => External fragment
 
 Do you want to compact? 1.yes 2.no
 1
 
--Partition 0 (90 KB) => Process 2
--Partition 1 (15 KB) => Process 1
--Partition 3 (30 KB) => Process 3
--Partition 4 (100 KB) => Process 4
--Partition 8 (110 KB) => External fragment
+- Partition 0 (90 KB) => Process 2
+- Partition 1 (15 KB) => Process 1
+- Partition 3 (30 KB) => Process 3
+- Partition 4 (100 KB) => Process 4
+- Partition 8 (110 KB) => External fragment
 
 Select policy:
 3
--Partition 0 (30 KB) => Process 3
--Partition 8 (60 KB) => External fragment
--Partition 1 (20 KB) => External fragment
--Partition 2 (5 KB) => External fragment
--Partition 3 (30 KB) => External fragment
--Partition 4 (15 KB) => Process 1
--Partition 6 (90 KB) => Process 2
--Partition 7 (15 KB) => External fragment
--Partition 5 (80 KB) => External fragment
--Process 4 can not be allocated
+- Partition 0 (30 KB) => Process 3
+- Partition 8 (60 KB) => External fragment
+- Partition 1 (20 KB) => External fragment
+- Partition 2 (5 KB) => External fragment
+- Partition 3 (30 KB) => External fragment
+- Partition 4 (15 KB) => Process 1
+- Partition 6 (90 KB) => Process 2
+- Partition 7 (15 KB) => External fragment
+- Partition 5 (80 KB) => External fragment
+- Process 4 can not be allocated
 
 Do you want to compact? 1.yes 2.no
 2
