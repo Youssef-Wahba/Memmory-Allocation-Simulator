@@ -40,12 +40,15 @@ Process name and its size:
 Process3 30
 Process name and its size:
 Process4 100
+
 Select the policy you want to apply:
 1. First fit
 2. Worst fit
 3. Best fit
+4. 
 Select policy:
-1
+- 1
+- 
 -Partition 0 (15 KB) => Process 1
 -Partition 6 (30 KB) => Process 3
 -Partition 8 (45 KB) => External fragment
@@ -58,7 +61,8 @@ Select policy:
 -Process 4 can not be allocated
 
 Do you want to compact? 1.yes 2.no
-1
+- 1
+- 
 - Partition 0 (15 KB) => Process 1
 - Partition 6 (30 KB) => Process 3
 - Partition 4 (90 KB) => Process 2
@@ -66,7 +70,8 @@ Do you want to compact? 1.yes 2.no
 - Partition 10 (110 KB) => External fragment
 
 Select policy:
-2
+- 2
+- 
 - Partition 0 (90 KB) => Process 2
 - Partition 1 (15 KB) => Process 1
 - Partition 6 (5 KB) => External fragment
@@ -77,7 +82,7 @@ Select policy:
 - Partition 5 (80 KB) => External fragment
 
 Do you want to compact? 1.yes 2.no
-1
+- 1
 
 - Partition 0 (90 KB) => Process 2
 - Partition 1 (15 KB) => Process 1
@@ -86,7 +91,8 @@ Do you want to compact? 1.yes 2.no
 - Partition 8 (110 KB) => External fragment
 
 Select policy:
-3
+- 3
+- 
 - Partition 0 (30 KB) => Process 3
 - Partition 8 (60 KB) => External fragment
 - Partition 1 (20 KB) => External fragment
@@ -99,4 +105,4 @@ Select policy:
 - Process 4 can not be allocated
 
 Do you want to compact? 1.yes 2.no
-2
+- 2
